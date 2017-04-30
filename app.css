@@ -21,6 +21,16 @@ header {
     text-align: center;
 }
 
+ul.social {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 10px;    
+}
+.social li {
+    display: inline-block;
+}
+
 .iconfb {
     float: right;
     margin: 0;
