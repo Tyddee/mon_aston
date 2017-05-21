@@ -1,43 +1,9 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8" />
-        <link rel="stylesheet" type="text/css" href="assets/css/app.css">
-        <link rel="stylesheet" type="text/css" href="assets/css/normalize.css">
-        <title>Do It Yourself</title>
-    </head>
+<?php 
+$title = "Do it yourself";
+include "includes/header.php"; 
+?>
 
-<body>
-    <div id="bloc_page">
-        
-        <header>
-            <div class="logo pull-left">
-                <img src="images/do.jpg">
-            </div>
-
-            <div class="slogan pull-left">
-                <h1>
-                    Do It Yourself, pour cuisiner pas &agrave pas...<br /> 
-                    Enjoy together
-                </h1>
-            </div>
-
-            <div class="iconfb"><img src="images/iconfb.png"></div>
-            <div class="icontweet"><img src="images/icontweet.png"></div>
-            <div class="icongogol"><img src="images/icongogol.png"></div>
-
-            <nav>
-                <ul>
-                    <li><a href="#">Accueil     |</a></li>
-                    <li><a href="#">Bien débuter    |</a></li>
-                    <li><a href="#">Recettes et tutos   |</a></li>
-                    <li><a href="#">Boutique et livraison   |</a></li>
-                    <li><a href="#">Cours à domicile    |</a></li>
-                </ul>
-            </nav>
-        </header>
-
-        <div class="bloc_research">
+    <div class="bloc_research">
             <form method="post" action="traitement.php">
                 <h3>Trouver la recette idéale :</h3>
                 <p><input type="text" name="recette" placeholder="Recherche THE! recette..." />
@@ -94,7 +60,5 @@
                 <img src="images/star.png"><img src="images/star.png"><img src="images/star.png"><img src="images/star.png"><img src="images/star.png" alt="fivestar">
             </div>
         </footer>
-    </div>
-    <script src="assets/js/pagejs.js"></script>
-</body>
-</html>
+
+<?php include "includes/footer.php"; ?>

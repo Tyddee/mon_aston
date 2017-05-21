@@ -46,18 +46,19 @@ nav li:last-child {
     width: calc(100% - 175px);
     text-align: center;
 }
-
-.iconfb {
-    float: right;
-    margin: 0;
+/* conteneur des icones sociales */
+ul.social {
+    list-style-type : none;
+    position: fixed;
+    right: 0;
+    top: 0;
+    margin-right: 16px
 }
 
-.icontweet {
-    float: right;
-    margin: 0;
+ul.social li {
+    display: inline-block;
 }
 
-.icongogol {
-    float: right;
-    margin: 0;
+.bloc_research{
+    text-align: center;
 }
