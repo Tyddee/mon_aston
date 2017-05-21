@@ -1,0 +1,63 @@
+@font-face {
+    font-family: 'AlexTTF';
+    src: url('assets/fonts/AlexTTF.ttf');
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    margin-top: 260px;
+    background-color: #fafcea;
+}
+
+header {
+    position: fixed;
+    background-color: #e520cb;
+    top: 0;
+    width: 100%;
+}
+
+h1{
+    font-family: 'AlexTTF', Arial, sans-serif;
+}
+
+nav {
+    background-color: pink;
+    clear: both;
+    padding-top: 5px;
+    text-align: center;
+}
+
+nav li {
+    display: inline-block;
+    text-align: center;
+    margin-right: 70px;
+}
+
+nav li:last-child {
+    margin-right: 0px;
+}
+
+.pull-left {
+    float: left;
+}
+
+.slogan {
+    width: calc(100% - 175px);
+    text-align: center;
+}
+
+.iconfb {
+    float: right;
+    margin: 0;
+}
+
+.icontweet {
+    float: right;
+    margin: 0;
+}
+
+.icongogol {
+    float: right;
+    margin: 0;
+}
